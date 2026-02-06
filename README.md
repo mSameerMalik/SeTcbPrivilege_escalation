@@ -31,9 +31,7 @@ The tool abuses **SSPI hooking** to impersonate the **NT AUTHORITY\SYSTEM** LUID
 A user with `SeTcbPrivilege` is normally denied when attempting administrative actions such as adding local users.  
 `TcbElevation.exe` bypasses this restriction and successfully performs the action as **SYSTEM**.
 
-![SeTcbPrivilege PoC](images/seTcb_poc.png)
-
-> Replace `images/seTcb_poc.png` with the correct image path in your repository.
+<img width="1071" height="809" alt="seTcb_poc" src="https://github.com/user-attachments/assets/e3e1ce46-0748-48de-a593-966587d8e234" />
 
 ---
 
